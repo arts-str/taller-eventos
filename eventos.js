@@ -4,3 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Hola! Soy el div');
     })
 });
+
+function saludar(event) {
+    event.stopPropagation();
+    alert('Hola!');
+}
